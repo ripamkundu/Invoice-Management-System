@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+@media (max-width: 724px) {
+    .footer{
+        margin-top: 15% !important;
+    }
+  }
+  @media (max-width: 540px) {
+    .footer{
+        margin-top: 20% !important;
+    }
+  }
+  @media (max-width: 486px) {
+    .footer{
+        margin-top: 25% !important;
+    }
+  }
+  @media (max-width: 463px) {
+    .footer{
+        margin-top: 30% !important;
+    }
+  }
+  @media (max-width: 380px) {
+    .footer{
+        margin-top: 35% !important;
+    }
+  }
+  @media (max-width: 324px) {
+    .footer{
+        margin-top: 40% !important;
+    }
+  }
+  @media (max-width: 768px) {
+    section .container{
+        margin-bottom: 25% !important;
+    }
+  }

@@ -1,0 +1,353 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap')
+	;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)),
+		url("../image/home465.gif");
+	background-position: center center;
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	background-size: cover;
+	font-family: 'Bree Serif', serif;
+}
+
+nav {
+	width: 100%;
+	height: 100px;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+}
+
+.logo img {
+	height: 4.5rem;
+	width: 5rem;
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+/*
+.menu a::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width:0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+}
+*/
+.menu a:hover {
+	border-bottom: 3px solid #f02965;
+	border-radius: 2px;
+	color: lightcoral;
+}
+
+.login a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 20px;
+	font-size: 20px;
+	background: #f02965;
+	border-radius: 30px;
+	transition: 0.4s;
+}
+
+.login a:hover {
+	background-color: rgb(159, 255, 159);
+	/* box-shadow: 0 6px 12px 0 rgba(246, 243, 242, 0.75); */
+	color: #000;
+}
+
+.header_text {
+	max-width: 650px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.header_text .something {
+	letter-spacing: 2px;
+	border-bottom: 2px solid white;
+}
+
+.header_text h1 {
+	font-size: 2.8rem;
+}
+
+.header_text a {
+	text-decoration: none;
+	background: indianred;
+	color: white;
+	padding: 10px 20px;
+	letter-spacing: 5px;
+	transition: 0.4s;
+}
+
+.header_text a:hover {
+	background: transparent;
+	border: 1px solid indianred;
+}
+
+.auto-type {
+	color: lightcoral;
+	font-size: 3rem;
+}
+/* **********************************************About Section ****************************************************** */
+main .container .row .col-md-6 img {
+	width: 100%;
+	height: 100%;
+}
+
+main .container h1 {
+	font-family: 'Bree Serif', serif;
+	font-size: 3.5rem;
+	text-align: center;
+	text-decoration: underline;
+}
+
+main .container .row .col-md-6 p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	font-family: 'Bree Serif', serif;
+}
+
+main .container span {
+	color: darkorange;
+}
+
+main .container {
+	background-color: lightcyan;
+	border: 4px solid darkblue;
+}
+/**************************************Stats***************************************/
+.hero {
+	width: 100%;
+	height: 63vh;
+	background-image: linear-gradient(rgba(129, 58, 251, 0.8),
+		rgba(73, 155, 222, 0.5)), url("../image/alter.gif");
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	position: relative;
+}
+
+.title {
+	width: 60%;
+	display: inline-block;
+	/* margin: 150px auto 0; */
+	color: #fff;
+	text-align: center;
+}
+
+.title h1 {
+	margin-bottom: 30px;
+	font-size: 3.2rem;
+	font-family: 'Bree Serif', serif;
+	color: rgb(2, 2, 92);
+	text-decoration: underline;
+}
+
+.title p {
+	font-size: 13px;
+	line-height: 22px;
+}
+
+.hero .row {
+	width: 85%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.col {
+	flex-basis: 22%;
+	text-align: center;
+	color: #555;
+}
+
+.counter-box {
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	padding: 20px 0;
+	border-radius: 5px;
+	box-shadow: 0 0 20px -4px #66676c;
+}
+
+.counter, .counter-box span {
+	display: inline-block;
+	margin: 15px 0;
+	font-size: 50px;
+	color: #000;
+}
+
+.counter-box .fa {
+	font-size: 40px;
+	color: #009688;
+	display: block;
+}
+
+.counter {
+	font-family: 'Bree Serif', serif;
+}
+
+.counter-box:hover {
+	box-shadow: 4px 4px 18px #04fbe2;
+}
+
+/************************ Footer Section ************************/
+.footer {
+	position: relative;
+	width: 100%;
+	background: #3586ff;
+	min-height: 100px;
+	padding: 20px 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.social-icon, .menu {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0;
+	flex-wrap: wrap;
+}
+
+.social-icon__item, .menu__item {
+	list-style: none;
+}
+
+.social-icon__link {
+	font-size: 2rem;
+	color: #fff;
+	margin: 0 10px;
+	display: inline-block;
+	transition: 0.5s;
+}
+
+.social-icon__link:hover {
+	transform: translateY(-10px);
+}
+
+.menu__link {
+	font-size: 1.2rem;
+	color: #fff;
+	margin: 0 10px;
+	display: inline-block;
+	transition: 0.5s;
+	text-decoration: none;
+	opacity: 0.75;
+	font-weight: 300;
+}
+
+.menu__link:hover {
+	opacity: 1;
+}
+
+.footer p {
+	color: #fff;
+	margin: 15px 0 10px 0;
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.wave {
+	position: absolute;
+	top: -100px;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	background: url("https://i.ibb.co/wQZVxxk/wave.png");
+	background-size: 1000px 100px;
+}
+
+.wave#wave1 {
+	z-index: 1000;
+	opacity: 1;
+	bottom: 0;
+	animation: animateWaves 4s linear infinite;
+}
+
+.wave#wave2 {
+	z-index: 999;
+	opacity: 0.5;
+	bottom: 10px;
+	animation: animate 4s linear infinite !important;
+}
+
+.wave#wave3 {
+	z-index: 1000;
+	opacity: 0.2;
+	bottom: 15px;
+	animation: animateWaves 3s linear infinite;
+}
+
+.wave#wave4 {
+	z-index: 999;
+	opacity: 0.7;
+	bottom: 20px;
+	animation: animate 3s linear infinite;
+}
+
+@keyframes animateWaves { 
+	0% {
+	background-position-x: 1000px;
+    }
+
+    100%{
+    background-positon-x:0px;
+    }
+}
+@keyframes animate { 
+	0%{
+	background-position-x: -1000px;
+    }
+    100%{
+    background-positon-x :0px;
+    }
+}
+.font-medium {
+	font-family: 'Bree Serif', sans-serif !important;
+}
+
+.text-2xl {
+	font-size: 3rem !important;
+	text-decoration: underline;
+}
+
+.mx-auto p {
+	font-family: 'Bree Serif', sans-serif !important;
+}

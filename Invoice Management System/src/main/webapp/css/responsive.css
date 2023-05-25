@@ -1,0 +1,663 @@
+@charset "ISO-8859-1";
+@media (max-width: 1275px) {
+    main .container h1 {
+        font-size: 2.8rem;
+    }
+    .title h1 {
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 1266px) {
+    .menu a {
+        font-size: 18px;
+    }
+    .login a {
+        padding: 9px 18px;
+        font-size: 18px;
+    }
+    .header_text h1 {
+        font-size: 2.3rem;
+    }
+    .header_text .something {
+        font-size: 1rem;
+    }
+    main .container h1 {
+        font-size: 2.5rem;
+        margin-top: 1% !important;
+    }
+    .title h1 {
+        font-size: 2.5rem;
+        margin-top: 1.5% !important;
+    }
+    .text-2xl {
+        font-size: 2.5rem !important;
+    }
+    .text-lg {
+        font-size: 1rem !important;
+    }
+}
+@media (max-width: 1181px) {
+    .header_text h3 {
+        font-size: 3.8rem;
+    }
+}
+@media (max-width: 1181px) {
+    .header_text h3 {
+        font-size: 3.6rem;
+    }
+}
+@media (max-width: 1062px) {
+    .header_text h3 {
+        font-size: 3.4rem;
+    }
+}
+@media (max-width: 1041px) {
+    .header_text h1 {
+        font-size: 2rem;
+    }
+    .header_text .something {
+        font-size: 0.8rem;
+    }
+    .header_text h3 {
+        font-size: 3.2rem;
+    }
+}
+@media (max-width: 946px) {
+    .header_text h3 {
+        font-size: 3.1rem;
+    }
+}
+@media (max-width: 916px) {
+    .header_text h3 {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 905px) {
+    .header_text h1 {
+        font-size: 1.8rem;
+    }
+    .header_text .something {
+        font-size: 0.7rem;
+    }
+    .auto-type {
+        font-size: 2.5rem;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+    .logo img {
+        height: 3.5rem;
+        width: 4rem;
+    }
+    .login a {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    .counter, .counter-box span {
+        font-size: 42px;
+    }
+}
+@media (max-width: 886px) {
+    .header_text h3 {
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 826px) {
+    .header_text h3 {
+        font-size: 2.6rem;
+    }
+}
+@media (max-width: 814px) {
+    .menu a {
+        font-size: 15px;
+    }
+    .login a {
+        padding: 7px 14px;
+        font-size: 15px;
+    }
+    .header_text h1 {
+        font-size: 1.7rem;
+    }
+    .auto-type {
+        font-size: 2.3rem;
+    }
+    main .container h1 {
+        font-size: 2.3rem;
+    }
+    main .container .row .col-md-6 p {
+        font-size: 14px;
+    }
+    .title h1 {
+        font-size: 2.3rem;
+    }
+    .counter, .counter-box span {
+        font-size: 37px;
+    }
+    .text-2xl {
+        font-size: 2.3rem !important;
+    }
+
+}
+@media (max-width: 814px) {
+    .header_text h1 {
+        font-size: 1.6rem;
+    }
+
+}
+@media (max-width: 767px) {
+    .header_text h3 {
+        font-size: 2.4rem;
+    }
+}
+@media (max-width: 751px){
+    header{
+        height: 99vh;
+    }
+}
+@media (max-width: 724px) {
+    .header_text h1 {
+        font-size: 1.5rem;
+    }
+    .auto-type {
+        font-size: 2.2rem;
+    }
+    header {
+        height: 97vh;
+    }
+    .header_text h3 {
+        font-size: 2.3rem;
+    }
+}
+@media (max-width: 679px) {
+    .header_text h1 {
+        font-size: 1.4rem;
+    }
+    header {
+        height: 94vh;
+    }
+    .header_text h3 {
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 657px) {
+    .header_text h3 {
+        font-size: 2.1rem;
+    }
+    header {
+        height: 92vh;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo img {
+        height: 4.5rem;
+        width: 5rem;
+        margin-top: 26%;
+    }
+    .menu{
+        margin: 0;
+    }
+    .menu a {
+        font-size: 14px;
+    }
+    .header_text .something {
+        font-size: 0.6rem;
+    }
+    .header_text h1 {
+        font-size: 1.4rem;
+    }
+    .login{
+        display: none;
+    }
+   
+    .header_text .login {
+        display: block;
+    } 
+    .auto-type {
+        font-size: 2.1rem;
+    }
+    .header_text .login a {
+        padding: 8px 30px;
+        font-size: 18px;
+    }
+    main .container .row .col-md-6 p {
+        font-size: 12px;
+    }
+    .counter-box h4{
+        font-size: 12px;
+    }
+
+}
+@media (max-width:620px){
+    .header_text h3 {
+        font-size: 2rem;
+    }
+}
+@media (max-width:618px){
+    header {
+        height: 88vh;
+    }
+}
+@media (max-width: 633px){
+    .header_text h1 {
+        font-size: 1.3rem;
+    }
+    .text-2xl {
+        font-size: 2.1rem;
+    }
+    .text-lg {
+        font-size: 0.8rem !important;
+    }
+    .footer p {
+        font-size: 0.8rem;
+    }
+
+}
+@media (max-width: 590px){
+    .header_text h3 {
+        font-size: 1.9rem;
+    }
+}
+@media (max-width: 588px){
+    header {
+        width: 100%;
+        height: 86vh;
+    }
+    .header_text h1 {
+        font-size: 1.2rem;
+    }
+    .header_text .something {
+        font-size: 0.55rem;
+    }
+    .header_text .login a {
+        padding: 7px 24px;
+        font-size: 16px;
+    }
+    .auto-type {
+        font-size: 2rem;
+    }
+    main .container h1 {
+        font-size: 2.1rem;
+    }
+    .title h1 {
+        font-size: 2.1rem;
+    }
+    .hero {
+        width: 100%;
+        height: 49vh;
+    }
+}
+@media (max-width: 543px) {
+    header {
+        width: 100%;
+        height: 81vh;
+    }
+    .menu a {
+        font-size: 12px;
+    }
+    .header_text h1 {
+        font-size: 1.1rem;
+    }
+    .auto-type {
+        font-size: 1.8rem;
+    }
+    .header_text .login a {
+        padding: 6px 22px;
+        font-size: 14px;
+    }
+    .counter, .counter-box span {
+        font-size: 30px;
+    }
+    .counter-box h4 {
+        font-size: 11px;
+    }
+}
+@media (max-width: 500px) {
+    .header_text {
+        top: 46%;
+    }
+    .menu a {
+        font-size: 11px;
+    }
+    .header_text h1 {
+        font-size: 1rem;
+    }
+    main .container h1 {
+        font-size: 1.9rem;
+    }
+    main .container .row .col-md-6 p {
+        font-size: 11px;
+    }
+
+    .title h1 {
+        font-size: 1.9rem;
+    }
+    .text-2xl {
+        font-size: 1.9rem !important;
+    }
+    .text-base {
+        font-size: 0.8rem !important;
+    }
+    .counter, .counter-box span {
+        font-size: 28px;
+    }
+    .counter-box h4 {
+        font-size: 9px;
+    }
+    .footer {
+        padding: 9px 45px;
+    }
+    .py-24 {
+        padding-top: 3rem !important;
+    }
+    .counter-box .fa {
+        font-size: 35px;
+    }
+}
+@media (max-width: 497px){
+    header {
+        width: 100%;
+        height: 78vh;
+    }
+    .header_text .something {
+        font-size: 0.49rem;
+    }
+    
+    .header_text h1 {
+        font-size: 0.9rem;
+    }
+    .auto-type {
+        font-size: 1.7rem;
+    }
+    .text-sm {
+        font-size: 0.79rem;
+    }
+    .counter-box .fa {
+        font-size: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .menu a {
+        font-size: 10px;
+    }
+}
+@media (max-width: 472px){
+    header {
+        width: 100%;
+        height: 77vh;
+    }
+    .header_text {
+        top: 45%;
+        left: 50%;
+    }
+}
+@media (max-width: 461px){
+    .menu a {
+        font-size: 10px;
+        padding: 10px 18px;
+    }
+    header {
+        width: 100%;
+        height: 74vh;
+    }
+    .header_text {
+        top: 42%;
+        left: 50%;
+    }
+}
+@media (max-width: 441px){
+    .menu a {
+        font-size: 10px;
+        padding:10px 15px;
+    }
+}
+
+@media (max-width: 418px){
+    header {
+        width: 100%;
+        height: 67vh;
+    }
+    .header_text {
+        top: 38%;
+        left: 50%;
+    }
+    .logo img {
+        height: 3.5rem;
+        width: 4rem;
+    }
+    .menu a {
+        font-size: 10px;
+        padding: 10px 14px;
+    }
+    .counter-box h4 {
+        font-size: 7px;
+    }
+    .counter-box .fa {
+        font-size: 24px;
+    }
+    .counter, .counter-box span {
+        font-size: 23px;
+    }
+    .hero {
+        width: 100%;
+        height: 40vh;
+    }
+    .footer p {
+        font-size: 0.7rem;
+    }
+    .footer {
+        padding: 6px 38px;
+    }
+    main .container h1 {
+        font-size: 1.7rem;
+    }
+    .title h1 {
+        font-size: 1.7rem;
+    }
+    .text-2xl {
+        font-size: 1.7rem !important;
+    }
+
+}
+@media (max-width: 407px){
+    .header_text h1 {
+        font-size: 0.875rem;
+    }
+    .menu a {
+    font-size: 10px;
+    padding: 10px 12px;
+}
+}
+@media (max-width: 396px){
+    .header_text h1 {
+        font-size: 0.8rem;
+    }
+    .header_text .something {
+        font-size: 0.4rem;
+    }
+    .header_text .something {
+        font-size: 0.4rem;
+    }
+    .menu a {
+        font-size: 9px;
+    }
+    .text-base {
+        font-size: 0.6rem !important;
+    }
+    .px-8 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .logo img {
+        height: 2.5rem;
+        width: 3rem;
+    }
+}
+@media (max-width: 381px){
+    header {
+        width: 100%;
+        height: 62vh;
+    }
+    .header_text {
+        top: 35%;
+        left: 50%;
+    }
+    
+}
+@media (max-width: 377px){
+    .header_text h1 {
+        font-size: 0.8rem;
+    }
+    .menu a {
+        font-size: 8px;
+    }
+}
+@media (max-width: 377px){
+    
+    .header_text h1 {
+        font-size: 0.77rem;
+    }
+    .auto-type {
+        font-size: 1.6rem;
+    }
+    
+}
+@media (min-width: 300px) and (max-width: 377px){
+    
+    .header_text h1 {
+        font-size: 0.66rem;
+    }
+    header {
+        width: 100%;
+        height: 82vh;
+    }
+    .menu a {
+        font-size: 9px;
+        padding: 10px 6px;
+    }
+    .counter-box h4 {
+        font-size: 5px;
+    }
+    .text-base {
+        font-size: 0.45rem !important;
+    }
+    .counter, .counter-box span {
+        font-size: 17px;
+    }
+    .counter-box .fa {
+    font-size: 16px;
+}
+.hero {
+    width: 100%;
+    height: 30vh;
+}
+.auto-type {
+    font-size: 1.3rem;
+}
+.text-sm {
+    font-size: 0.6rem;
+    line-height: 1.25rem;
+}
+.px-8 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+}
+.text-lg {
+    font-size: 0.6rem !important;
+}
+    
+}
+@media (min-width: 326px) and (max-width: 341px){
+    .menu a {
+        font-size: 9px;
+    }
+    header {
+        width: 100%;
+        height: 59vh;
+    }
+    .header_text {
+        top: 33%;
+        left: 50%;
+    }
+}
+
+@media (min-width: 341px) and (max-width: 362px){
+    .menu a {
+        font-size: 9px;
+    }
+    header {
+        width: 100%;
+        height: 62vh;
+    }
+}
+@media (min-width: 362px) and (max-width: 396px){
+    header {
+        width: 100%;
+        height: 64vh;
+    }
+    .menu a {
+        font-size: 10px;
+        padding: 10px 10px;
+    }
+}
+@media (min-width: 300px) and (max-width: 326px){
+    header {
+        width: 100%;
+        height: 58vh;
+    }
+    .header_text {
+        top: 32%;
+        left: 50%;
+    }
+}
+
+
+
+
+
+/* @media (max-width: 724px) {
+    .footer{
+        margin-top: 15% !important;
+    }
+}
+@media (max-width: 540px) {
+    .footer{
+        margin-top: 20% !important;
+    }
+}
+@media (max-width: 486px) {
+    .footer{
+        margin-top: 25% !important;
+    }
+}
+@media (max-width: 463px) {
+    .footer{
+        margin-top: 30% !important;
+    }
+}
+@media (max-width: 380px) {
+    .footer{
+        margin-top: 35% !important;
+    }
+}
+@media (max-width: 324px) {
+    .footer{
+        margin-top: 40% !important;
+    }
+} */
+
+@media (max-width: 316px){
+    .footer {
+      padding: 6px 25px !important;
+  }
+  }
+@media (max-width: 768px) {
+    /* section .container{
+        margin-bottom: 25% !important;
+    } */
+    section .col-md-6 p {
+        text-align: center;
+        font-size: 13px;
+    }
+}
